@@ -5,9 +5,11 @@ export function PlaceCard({ place }) {
     return (
         <div id={id} className={styles.PlaceCard}>
             <img src={image} className={styles.PlaceImage} alt={description} />
-            <div>
+            <div className={styles.PlaceCardBody}>
                 <h3 className={styles.PlaceName}>{name}</h3>
-                <p className={styles.PlaceDescription}>{description}</p>
+                <div className={styles.PlaceCardBody}>
+                    <p className={styles.PlaceDescription}>{description}</p>
+                </div>
                 <a href="#newsletter"
                     className={styles.PlaceLinkCTA}
                 >More stories 🤩</a>

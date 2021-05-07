@@ -1,16 +1,24 @@
 .PlaceCard {
-  align-items: flex-end;
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 1rem;
+  justify-content: flex-start;
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
 }
 
+.PlaceCardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  padding: 0.5rem;
+}
+
 .PlaceImage {
+  margin: 0;
+  height: 10rem;
   width: 100%;
 }
 
@@ -35,4 +43,15 @@
   color: var(--color-primary);
   font-family: "Poiret One", cursive;
   font-size: 1.75rem;
+  margin: 0;
+}
+
+@media screen and (min-width: 450px) {
+  .PlaceDescription {
+    height: 9rem;
+  }
+
+  .PlaceName {
+    height: 2.5rem;
+  }
 }
