@@ -41,7 +41,7 @@
 
 .NavigationLinkCTA {
   background-color: var(--color-primary);
-  color: var(--color-primary-text);
+  color: var(--color-accent);
   display: block;
   padding: 1rem;
   text-align: center;
