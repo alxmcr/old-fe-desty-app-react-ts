@@ -4,7 +4,7 @@ export function PlaceCard({ place }) {
     const { id, image, name, description } = place;
     return (
         <div id={id} className={styles.PlaceCard}>
-            <img src={image} className={styles.PlaceImage} />
+            <img src={image} className={styles.PlaceImage} alt={description} />
             <div>
                 <h3 className={styles.PlaceName}>{name}</h3>
                 <p className={styles.PlaceDescription}>{description}</p>
