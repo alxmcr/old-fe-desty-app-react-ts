@@ -1,7 +1,12 @@
+import { HeroSection } from 'sections/HeroSection'
+import { PlacesSection } from 'sections/PlacesSection'
 import styles from './HomePage.module.css'
 
-export function HomePage(){
+export function HomePage() {
     return (
-        <div></div>
+        <div>
+            <HeroSection />
+            <PlacesSection />
+        </div>
     )
 }
