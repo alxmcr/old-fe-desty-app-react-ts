@@ -1,4 +1,4 @@
-import { faBars, faCode, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faCode, faPlaneDeparture, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { NavLink } from 'react-router-dom'
 import styles from './BrandNavApp.module.css'
@@ -11,10 +11,10 @@ export function BrandNavApp({ showMenu, setShowMenu }) {
         <div className={styles.BrandNavApp}>
             <NavLink to="/"
                 className={styles.BrandNavAppLink}>
-                <i className="header__logo">
-                    <FontAwesomeIcon icon={faCode} />
+                <i className={styles.BrandNavAppIcon}>
+                    <FontAwesomeIcon icon={faPlaneDeparture} />
                 </i>
-                <span className="header__name">Confy</span>
+                <span className={styles.BrandNavAppName}>Desty</span>
             </NavLink>
 
             {!showMenu
