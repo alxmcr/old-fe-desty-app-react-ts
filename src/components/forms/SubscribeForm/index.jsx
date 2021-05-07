@@ -8,13 +8,13 @@ export function SubscribeForm() {
                     className={styles.SubscribeFormLabel}>Email</label>
                 <input type="email"
                     name="email"
-                    id="email" 
+                    id="email"
                     className={styles.SubscribeFormInput}
                 />
             </div>
             <div>
-                <button type="submit" 
-                className={styles.SubscribeFormButton}>Subscribe</button>
+                <button type="submit"
+                    className={styles.SubscribeFormButton}>Subscribe</button>
             </div>
         </form>
     )
