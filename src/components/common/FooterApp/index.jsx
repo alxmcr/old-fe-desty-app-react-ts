@@ -38,9 +38,9 @@ export function FooterApp() {
                     </a>
                 </li>
             </ul>
-            <div className="footer-copyright">
-                Desty with <FontAwesomeIcon icon={faHeart} /> to everyone!
-            </div>
+            <p className={styles.FooterAppCopyright}>
+                Desty with <i className={styles.FooterAppIcon}><FontAwesomeIcon icon={faHeart} /></i> to everyone!
+            </p>
         </footer>
     )
 }

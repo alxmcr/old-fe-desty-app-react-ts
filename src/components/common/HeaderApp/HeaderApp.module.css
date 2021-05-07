@@ -4,7 +4,6 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
-  width: 90%;
 }
 
 @media screen and (min-width: 700px) {
@@ -12,6 +11,5 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 75%;
   }
 }

@@ -1,0 +1,42 @@
+.FooterApp {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 0 3rem;
+}
+
+.FooterAppCopyright {
+  text-align: center;
+}
+
+.FooterAppIcon {
+  color: var(--color-primary);
+}
+
+.FooterAppLink {
+  color: var(--color-primary);
+}
+
+.FooterAppLink:active,
+.FooterAppLink:visited {
+  color: var(--color-primary);
+}
+
+.FooterAppList {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .FooterApp {
+    margin: 0 auto;
+    width: 40%;
+  }
+}
