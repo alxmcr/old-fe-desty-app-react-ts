@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+![Logo](https://raw.githubusercontent.com/alxmcr/desty-app/main/public/logo-desty.png?token=ACCJR2KIQUCECGRP7BVVT7LASS5SS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# desty
 
-## Available Scripts
+It's a Landing page for a Tech Conference build with a list of speakers and a schedule.
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Hero section
+- Places section
+- Newsletter section
+- Footer section
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  
+## Tech Stack
 
-### `npm test`
+HTML, CSS, JavaScript, React.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Lessons Learned
 
-### `npm run build`
+I learned and practice more about CSS, React.js, and React Hooks.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  
+## Run Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  git clone https://github.com/alxmcr/desty-app.git
+```
 
-### `npm run eject`
+Go to the project directory
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+  cd desty-app
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+  npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Start the server
 
-## Learn More
+```bash
+  npm run start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  
+## Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Desktop version
 
-### Code Splitting
+![Desktop Version](https://raw.githubusercontent.com/alxmcr/desty-app/main/screenshoots/desktop/desty-desktop.png?token=ACCJR2J5IE3JOGOZGWVKJOLASS46W)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Mobile version
 
-### Analyzing the Bundle Size
+![Mobile Version](https://raw.githubusercontent.com/alxmcr/desty-app/main/screenshoots/mobile/desty-mobile.png?token=ACCJR2MAHSIISZU23DBOPJTASS466)
+  
+## Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[Live Demo](https://desty-app.netlify.app/)
 
-### Making a Progressive Web App
+  
+## Feedback
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you have any feedback, please reach out to us at amcocarojas@gmail.com
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
