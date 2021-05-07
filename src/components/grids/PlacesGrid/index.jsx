@@ -6,7 +6,7 @@ export function PlacesGrid() {
     const { loading, places } = usePlaces();
     if (loading) return <p>Loading places...</p>
     return (
-        <div>
+        <div className={styles.PlacesGrid}>
             {
                 places.map(place => <PlaceCard key={place.id} place={place} />)
             }

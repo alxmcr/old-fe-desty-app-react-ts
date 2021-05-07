@@ -1,9 +1,21 @@
+.PlaceCard {
+  align-items: flex-end;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
 .PlaceImage {
   width: 100%;
 }
 
 .PlaceName {
   color: var(--color-primary);
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   font-size: 1.75rem;
 }
