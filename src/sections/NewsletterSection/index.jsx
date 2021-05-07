@@ -1,14 +1,13 @@
 import { SubscribeForm } from 'components/forms/SubscribeForm'
-import styles from './NewsletterSection.modules.css'
+import styles from './NewsletterSection.module.css'
 
 export function NewsletterSection() {
     return (
-        <section id="newsletter">
+        <section id="newsletter" className={styles.NewsletterSection}>
             <h2 className={styles.NewsletterSectionTitle}>Subscribe!</h2>
-            <div>
-                <p className="">Si te interesa leer las historias
-                <span className="">más geniales e interesantes</span> de viajes, de la semana 👉.</p>
-            </div>
+            <p className={styles.NewsletterSectionDescription}>
+                If you are interested in reading the coolest and most interesting travel stories of the week 👉.
+            </p>
             <SubscribeForm />
         </section>
     )

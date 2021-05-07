@@ -15,7 +15,7 @@ export function NavApp({ showMenu = true }) {
                     <a href="#new-city" className={styles.NavigationLink}>+Cities</a>
                 </li>
                 <li className={styles.NavigationItem}>
-                    <a href="#subscription" className={styles.NavigationLinkCTA}>Newsletter</a>
+                    <a href="#newsletter" className={styles.NavigationLinkCTA}>Newsletter</a>
                 </li>
             </ul>
         </nav>
