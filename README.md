@@ -2,7 +2,7 @@
 
 # desty
 
-It's a Landing page for a Tech Conference build with a list of speakers and a schedule.
+It's a Landing page for a tourism guide blog.
 
 
 ## Features
