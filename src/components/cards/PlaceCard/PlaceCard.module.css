@@ -1,3 +1,9 @@
-.PlaceImage{
-    width: 100%;
+.PlaceImage {
+  width: 100%;
+}
+
+.PlaceName {
+  color: var(--color-primary);
+  font-family: 'Poiret One', cursive;
+  font-size: 1.75rem;
 }

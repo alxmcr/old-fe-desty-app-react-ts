@@ -4,7 +4,7 @@ import styles from './PlacesSection.module.css'
 export function PlacesSection() {
     return (
         <section id="places">
-            <h2>Places</h2>
+            <h2 className={styles.PlacesSectionTitle}>Places</h2>
             <PlacesGrid />
         </section>
     )

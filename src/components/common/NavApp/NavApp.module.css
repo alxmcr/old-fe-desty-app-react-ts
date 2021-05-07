@@ -3,7 +3,6 @@
 }
 
 .navAppShow {
-  background-color: var(--color-primary-text);
   color: var(--color-primary);
   padding: 0.5rem 0;
   width: 100%;
@@ -68,7 +67,6 @@
 
 @media screen and (min-width: 700px) {
   .navApp {
-    background-color: var(--color-primary-text);
     color: var(--color-primary);
     display: flex;
     flex-direction: row;
