@@ -1,10 +1,12 @@
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
+import { SwitchRoutesApp } from './routing/SwitchRoutesApp';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <Router>
+      <SwitchRoutesApp />
+    </Router>
   );
 }
 
