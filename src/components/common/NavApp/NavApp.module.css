@@ -35,7 +35,7 @@
 
 .NavigationLink:hover {
   background-color: var(--color-primary);
-  color: var(--color-primary-text);
+  color: var(--color-accent);
   transform: scale(1.1);
 }
 
@@ -55,7 +55,7 @@
 
 .NavigationLinkCTA:active,
 .NavigationLinkCTA:visited {
-  color: var(--color-primary-text);
+  color: var(--color-accent);
 }
 
 .NavigationList {
