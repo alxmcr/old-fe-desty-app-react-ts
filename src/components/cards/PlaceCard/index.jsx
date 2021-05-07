@@ -9,7 +9,7 @@ export function PlaceCard({ place }) {
                 <h3 className={styles.PlaceName}>{name}</h3>
                 <p className={styles.PlaceDescription}>{description}</p>
                 <a href="#newsletter"
-                    className={styles.PlaceLink}
+                    className={styles.PlaceLinkCTA}
                 >More stories 🤩</a>
             </div>
         </div>
