@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/alxmcr/desty-app/main/public/logo-desty.png?token=ACCJR2P54DDQLWMGL5KWAADASV53I)
+![Logo](https://res.cloudinary.com/images-alex-projects/image/upload/v1620432061/Portfolio/desty-images/logo-desty_qn9p0e.png)
 
 # desty
 
@@ -53,11 +53,11 @@ Start the server
 
 Desktop version
 
-![Desktop Version](https://raw.githubusercontent.com/alxmcr/desty-app/main/screenshoots/desktop/desty-desktop.png?token=ACCJR2LLBHBGBF4CH5ELLPDASV53C)
+![Desktop Version](https://res.cloudinary.com/images-alex-projects/image/upload/v1620410740/Portfolio/desty-images/desty-desktop_is2bkv.png)
 
 Mobile version
 
-![Mobile Version](https://raw.githubusercontent.com/alxmcr/desty-app/main/screenshoots/mobile/desty-mobile.png?token=ACCJR2PDHQHRIHYSUTF5P7LASV53O)
+![Mobile Version](https://res.cloudinary.com/images-alex-projects/image/upload/v1620410746/Portfolio/desty-images/desty-mobile_e08scx.png)
   
 ## Demo
 
