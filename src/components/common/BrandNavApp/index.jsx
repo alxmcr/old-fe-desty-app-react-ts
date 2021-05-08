@@ -19,18 +19,20 @@ export function BrandNavApp({ showMenu, setShowMenu }) {
 
             {!showMenu
                 ? <button
-                    className={styles.brandNavBtn}
+                    className={styles.brandNavButton}
                     onClick={handlerShowMenu}
+                    aria-label="Hamburger Icon - Open Menu"
                 >
-                    <i className={styles.brandNavBtnIcon}>
+                    <i className={styles.brandNavButtonIcon}>
                         <FontAwesomeIcon icon={faBars} />
                     </i>
                 </button>
                 : <button
-                    className={styles.brandNavBtn}
+                    className={styles.brandNavButton}
                     onClick={handlerHiddenMenu}
+                    aria-label="X Icon - Close Menu"
                 >
-                    <i className={styles.brandNavBtnIcon}>
+                    <i className={styles.brandNavButtonIcon}>
                         <FontAwesomeIcon icon={faTimes} />
                     </i>
                 </button>

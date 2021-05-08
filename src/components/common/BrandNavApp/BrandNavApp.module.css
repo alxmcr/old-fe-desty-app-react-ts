@@ -25,7 +25,7 @@
   color: var(--color-primary);
 }
 
-.brandNavBtn {
+.brandNavButton {
   appearance: none;
   background-color: transparent;
   border: none;
@@ -34,7 +34,7 @@
 }
 
 @media screen and (min-width: 700px) {
-  .brandNavBtn {
+  .brandNavButton {
     display: none;
   }
 
